@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to right, #f9d423, #e2a138, #a35200);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 400px;
+  max-height: 600px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+}
+
+.heading {
+  color: #a35200;
+  margin-bottom: 13px;
+
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.para-head {
+  color: darkmagenta;
+  margin-top: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.button-container {
+  text-align: center;
+}
+.button-class {
+  background-color: #e2a138a8;
+  color: #a35200;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  color: darkmagenta;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.image {
+  width: 80px;
+  margin-bottom: 15px;
+}
+.para {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-container {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .image {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .para-head {
+    margin-bottom: 10px;
+  }
+  .para {
+    margin-right: 30px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
